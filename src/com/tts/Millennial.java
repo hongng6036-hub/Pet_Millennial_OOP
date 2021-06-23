@@ -20,13 +20,14 @@ public class Millennial {
 
     //Method that returns String AND is a Boolean
     public boolean Age (int age) {
-        int minimumAge = 24;
-        int maximumAge = 40;
-        boolean millennialAgeRange = age >= minimumAge && maximumAge <= age;
+
+        boolean millennialAgeRange = age <= 40 && age >= 24;
         if(millennialAgeRange == true) {
             this.Age = age;
             System.out.println("You're definitely a millennial!");
         } else {
+            System.out.println(age);
+            System.out.println(millennialAgeRange);
             System.out.println("You're not a millennial!");
         }
         return true;

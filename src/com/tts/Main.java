@@ -73,11 +73,11 @@ public class Main {
         System.out.println(jessica);
 
         System.out.println("\n ===========Millennial Class: Testing Positive Boolean========");
-        Millennial joe = new Millennial(25, 10000);
+        Millennial joe = new Millennial(27, 10000);
         joe.Name = "Joe";
         joe.setJeans("Straight-leg");
         joe.setBangs("Bald");
-        joe.Age(25);
+        joe.Age(27);
         System.out.println(joe);
 
         System.out.println("\n ===========Millennial Class: Testing Negative Boolean========");
